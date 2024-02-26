@@ -1,0 +1,75 @@
+.statisticSection {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background: #00c6ff;
+    /* background: -webkit-linear-gradient(to right, #0072ff, #00c6ff); */
+    /* background: linear-gradient(to right, #0072ff, #00c6ff); */
+    background: linear-gradient(to right,#efefef, #dcdcdc);
+    width: 84%;
+    margin: 50px auto;
+    border-radius: 40px;
+    box-shadow: 
+    0px -25px 20px -20px rgba(0,0,0,0.45),
+    25px 0px 20px -20px rgba(0,0,0,0.45),
+    0px 25px 20px -20px rgba(0,0,0,0.45),
+    -25px 0px 20px -20px rgba(0,0,0,0.45);
+  }
+  
+  .countTitle {
+    font-size: 50px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: bold;
+    /* color: #fff; */
+  }
+  
+  .statsText {
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 0;
+    text-align: center;
+    /* color: #fff; */
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .statsLine {
+    margin: 12px auto 0;
+    width: 55px;
+    height: 2px;
+    /* background-color: black; */
+    /* background-color: #fff; */
+  }
+  
+  .statsIcon {
+    font-size: 35px;
+    margin: 0 auto;
+    float: none;
+    display: table;
+    /* color: #fff; */
+  }
+  
+  .coffeeIcon {
+    /* color: #a8d0e6; */
+  }
+  
+  .codeIcon {
+    /* color: #d2d9f2; */
+  }
+  
+  .clockIcon {
+    /* color: #73b2ff; */
+  }
+  
+  .laptopIcon {
+    /* color: #4699e6; */
+  }
+  
+  @media (max-width: 992px) {
+    .counter {
+      margin-bottom: 40px;
+    }
+  }
